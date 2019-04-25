@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Edit" type="id"/>
+    <item name="Button" type="id"/>
+    <item name="But" type="id"/>
+    <item name="SaveMe" type="id"/>
+    <item name="Savecart" type="id"/>
+    <item name="DeleteMe" type="id"/>
+    <item name="Cancle" type="id"/>
+    <item name="itemText" type="id"/>
+
+
+</resources>

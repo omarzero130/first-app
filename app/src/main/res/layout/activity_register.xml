@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/grad"
+    tools:context="com.example.omarshalaby.androidproject.Register">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="15"
+    android:gravity="center"
+    android:layout_height="0dp">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/shop5"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="75"
+    android:weightSum="50"
+    android:orientation="vertical"
+    android:layout_height="0dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="10"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="350dp"
+        android:hint="Username"
+        android:id="@+id/username_reg"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="2dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:hint="Password"
+            android:id="@+id/password_reg"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:inputType="numberPassword"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="2dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:hint="Confirm password"
+            android:inputType="numberPassword"
+
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:id="@+id/confirm"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="2dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:hint="Email"
+            android:id="@+id/Email"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="2dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:hint="AGE"
+            android:id="@+id/Age"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="2dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp">
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Register_reg"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape1"
+            android:text="Register"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

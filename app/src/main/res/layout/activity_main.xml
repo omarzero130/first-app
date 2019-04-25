@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:weightSum="100"
+    android:orientation="vertical"
+   android:background="@drawable/grad"
+
+    tools:context="com.example.omarshalaby.androidproject.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+  android:layout_weight="35"
+    android:gravity="center"
+   android:layout_height="0dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/shop5"
+        />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="username"
+            android:drawablePadding="2dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="2dp"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="50">
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/login"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="20"
+            android:background="@drawable/shape1"
+            android:text="Login"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+
+
+            />
+
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/Registerbtn"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="20"
+            android:background="@drawable/shape1"
+            android:text="Register"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
